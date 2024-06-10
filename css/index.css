@@ -19,11 +19,13 @@
      text-decoration: none;
 }  
 
-header { background-color: #C40C0C;
-     color: #FF6500;
-     max-width: 75%;
-     margin: auto;
-
+header {  display: grid;
+          grid-template-columns: 1fr 4fr;
+          justify-items: center;
+          background-color: #C40C0C;
+          color: #FF6500;
+          margin: auto;
+          text-align: center;
 } 
 
 body{ background-color: wheat;
@@ -72,7 +74,7 @@ a{ background-color: black;
 
 img{ width: 254px;
      height: 200px;
-     border: 3.5px double #FF6500;
+     border: 3.5px double ;
      position: relative;
       left: 10%;
       right: 25%;
@@ -87,7 +89,7 @@ img{ width: 254px;
 }
 
 .parrafosMAIN{ font-size: 24px;
-     background-color: #C40C0C ;
+     background-color: antiquewhite ;
      color: #FFC100
 
 }
@@ -133,7 +135,7 @@ article{ border: 3px solid whitesmoke;
 }
 
 nav{ display: grid;
-     grid-template-columns: repeat(4, 1fr);
+     grid-template-columns: repeat(3, 1fr);
      grid-template-rows: 1fr;
      grid-column-gap: 0px;
      grid-row-gap: 0px;
@@ -170,7 +172,40 @@ nav{ display: grid;
      background-color: black;
 
 }
-.imgNAV{ max-width: 100px;
-         max-height: 100px;
+.imgNAV{
+     max-width: 100px;
+     max-height: 100px;
 
+}
+
+@media(max-width: 425px) {
+     nav {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+     }
+   
+     .imgNAV {
+               max-width: 100px;
+               max-height: 100px;
+               position: relative;
+               left: 33.9%;
+               right: 25%;
+     }
+
+     .parrafosNAV { text-align: center;
+          padding-left: 10px;
+          padding-right: 10px; 
+          margin-right: 1px;
+          margin-left: 1px;
+          margin-top: 1px;
+          margin-bottom: 1px;
+          position: relative;
+      }
+
+      .sectionMUEBLES{
+          display: block;
+      }
 }

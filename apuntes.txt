@@ -1,4 +1,3 @@
- agregar un rotate 360, 6 imagenes y media-query para PC y celulares.
 Cascading
 Style
 Sheets
@@ -42,3 +41,10 @@ object-fit: cover
  para imagenes
 
 <link rel="icon" href="-----.png">
+
+sillones tapizados
+juegos de living
+mesas ratonas extensibles o fijas
+placares 
+interiores de placares
+muebles de cocina en tela, hierro y/o madera

@@ -181,18 +181,18 @@ nav{ display: grid;
 @media(max-width: 425px) {
      nav {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 1fr;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
           grid-column-gap: 0px;
           grid-row-gap: 0px;
      }
    
      .imgNAV {
-               max-width: 100px;
-               max-height: 100px;
-               position: relative;
-               left: 33.9%;
-               right: 25%;
+          max-width: 100px;
+          max-height: 100px;
+          position: relative;
+          left: 33.9%;
+          right: 25%;
      }
 
      .parrafosNAV { text-align: center;
